@@ -15,4 +15,4 @@ F2 = K * t2;
 
 figure; clf; hold on; axis([-2.8 2.8 -0.8 1.2]);
 plot(X, F1, 'g-'); plot(X, F2, 'r--'); plot(x,y,'bo');
-legend('L2', 'L2-Constrained LS');
+legend('LS', 'L2-Constrained LS');
